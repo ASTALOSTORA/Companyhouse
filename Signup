@@ -12,26 +12,29 @@
   
 
 
+<div class="container text-center border border-light p-5">
 
-<form class="text-center border border-light p-5 " action="#!">
 <!-- user and company-->
 <div class="con mb-4">
     <p class="h4 bord user">User</p>
     <p class="h4  company">Company</p>
     </div>
     
-    <!--name company-->
- <input type="text" id="defaultLoginFormEmail" class="name_company form-control mb-4" placeholder="Name Company">
- 
- 
-    <!-- Email -->
-    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-
+    <!--user-->
+    
+     
+    <div class="formuser">
+        <!-- Email -->
+           <form>
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4 input1_user" placeholder="E-mail">
+   
 
     <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-
-    <div class="d-flex justify-content-around">
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4 input2_user" placeholder="Password">
+    
+    
+    <!--information-->
+          <div class="d-flex justify-content-around">
         <div>
           
             <!-- Remember me -->
@@ -45,20 +48,64 @@
             <a href="">Forgot password?</a>
         </div>
     </div>
+    
+    <!--buttom form user-->
+        <input class="btn_login btn  btn-block my-4 bg-corn" type="submit" value="Signin">
+   </form>
+</div>
 
-    <!-- Sign in button -->
-    <button class="btn  btn-block my-4 bg-corn" type="submit">Sign in</button>
+
+    <!--company-->
+    
+    <!--name company-->
+   
+    <div class="formcompany">
+      <form>
+ <input type="text" id="defaultLoginFormEmail" class="name_company form-control mb-4" placeholder="Name Company">
+ 
+ 
+    <!-- Email -->
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+    
+    <!--information-->
+        <div class="d-flex justify-content-around">
+        <div>
+          
+            <!-- Remember me -->
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+        </div>
+        <div>
+            <!-- Forgot password -->
+            <a href="">Forgot password?</a>
+        </div>
+    </div>
+    <!--button form Company-->
+        <input class="btn_login btn  btn-block my-4 bg-corn" type="submit" value="Signin">
+        
+        
+    </form>
+</div>
+
+
+
+
 
     <!-- signup -->
     <p>Not a member?
         <a href="">SignUp</a>
     </p>
 
-   
 
-</form>
 
-  
+
+  </div>
 
 
 

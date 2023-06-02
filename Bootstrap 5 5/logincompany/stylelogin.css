@@ -24,7 +24,10 @@
 .bord{
   border-bottom: 2px solid cornflowerblue;
 }
-.name_company{
+
+.formcompany{
   display:none;
 }
-
+.formuser{
+  display:block;
+}
