@@ -1,0 +1,30 @@
+.bg-corn{
+  background:cornflowerblue;
+}
+.con{
+  display:flex;
+  
+  width:100%;
+  height:30px;
+}
+.user{
+  width:50%;
+  height:100%;
+  text-align:center;
+  color:gray;
+  
+  
+}
+.company{
+  width:50%;
+  height:100%;
+  text-align:center;
+  color:gray;
+}
+.bord{
+  border-bottom: 2px solid cornflowerblue;
+}
+.name_company{
+  display:none;
+}
+
